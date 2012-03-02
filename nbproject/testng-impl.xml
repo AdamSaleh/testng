@@ -45,7 +45,7 @@ made subject to such option by the copyright holder.
         <echo message="Default target is not set."/>
     </target>
 
-	<taskdef resource="testngtasks" classpath="testng.jar"/>
+	<taskdef resource="testngtasks" classpath="testng-6.4.jar"/>
 
     <target name="-init-env">
         <condition property="run.jvmargs.prop" value="${run.jvmargs}" else="">
