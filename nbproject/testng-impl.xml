@@ -68,8 +68,8 @@ made subject to such option by the copyright holder.
                 <fileset id="mixed.tests" dir="${test.src.dir}" excludes="@{excludes},${excludes}" includes="@{includes}">
                     <filename name="@{testincludes}"/>
                 </fileset>
-                <taskdef name="testng" classname="org.testng.TestNGAntTask" classpath="${run.test.classpath}"/>
-                <testng mode="mixed" classfilesetref="mixed.tests" workingDir="${basedir}" failureProperty="tests.failed" outputdir="${build.test.results.dir}">
+                <taskdef name="testng" classname="org.testng.TestNGAntTask" classpath="/opt/testng.jar"/>
+                <testng  classfilesetref="mixed.tests" workingDir="${basedir}" failureProperty="tests.failed" outputdir="${build.test.results.dir}">
                     <classpath>
                         <pathelement path="${run.test.classpath}"/>
                         <pathelement path="${j2ee.platform.classpath}"/>
