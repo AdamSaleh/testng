@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Ant suite" duration-ms="15" started-at="2012-03-02T15:00:47Z" finished-at="2012-03-02T15:00:47Z">
+  <suite name="Ant suite" duration-ms="15" started-at="2012-03-05T09:50:47Z" finished-at="2012-03-05T09:50:47Z">
     <groups>
     </groups>
-    <test name="Ant test" duration-ms="15" started-at="2012-03-02T15:00:47Z" finished-at="2012-03-02T15:00:47Z">
+    <test name="Ant test" duration-ms="15" started-at="2012-03-05T09:50:47Z" finished-at="2012-03-05T09:50:47Z">
       <class name="test.dummyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.dummyTest@340d1fa5]" name="setUp" is-config="true" duration-ms="6" started-at="2012-03-02T15:00:47Z" finished-at="2012-03-02T15:00:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.dummyTest@7b112783]" name="setUp" is-config="true" duration-ms="8" started-at="2012-03-05T09:50:47Z" finished-at="2012-03-05T09:50:47Z">
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="aTest()[pri:0, instance:test.dummyTest@340d1fa5]" name="aTest" duration-ms="1" started-at="2012-03-02T15:00:47Z" finished-at="2012-03-02T15:00:47Z">
+        <test-method status="PASS" signature="aTest()[pri:0, instance:test.dummyTest@7b112783]" name="aTest" duration-ms="0" started-at="2012-03-05T09:50:47Z" finished-at="2012-03-05T09:50:47Z">
         </test-method> <!-- aTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.dummyTest@340d1fa5]" name="cleanUp" is-config="true" duration-ms="0" started-at="2012-03-02T15:00:47Z" finished-at="2012-03-02T15:00:47Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.dummyTest@7b112783]" name="cleanUp" is-config="true" duration-ms="1" started-at="2012-03-05T09:50:47Z" finished-at="2012-03-05T09:50:47Z">
         </test-method> <!-- cleanUp -->
       </class> <!-- test.dummyTest -->
     </test> <!-- Ant test -->
