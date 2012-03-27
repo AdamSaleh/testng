@@ -9,7 +9,8 @@ package test;
  * @author jrusnack
  */
 public class dummy {
+    
     public int inc(int a){
-        return a+1;
+        return a/0;
     }
 }
