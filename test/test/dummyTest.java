@@ -4,6 +4,7 @@
  */
 package test;
 
+import java.util.Random;
 import static org.testng.AssertJUnit.assertEquals;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -24,8 +25,14 @@ public class dummyTest {
     
     @Test
     public void incTest(){
-        int a;
-	assertEquals(d.inc(3), 4);
+	Random randomGenerator = new Random();
+	assertEquals(1, randomGenerator.nextInt(2));
+    }
+    
+    @Test
+    public void decTest(){
+	Random randomGenerator = new Random();
+	assertEquals(1, randomGenerator.nextInt(2));
     }
     
     @AfterClass
