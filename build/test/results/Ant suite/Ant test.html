@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Ant test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 27 16:35:59 CEST 2012</td>
+<td>Started on:</td><td>Fri Apr 13 09:44:22 CEST 2012</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (16 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (21 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='test.dummyTest.incTest()'><b>incTest</b><br>Test class: test.dummyTest</td>
-<td><div><pre>java.lang.ArithmeticException: / by zero
-	at test.dummy.inc(dummy.java:14)
-	at test.dummyTest.incTest(dummyTest.java:28)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2131361171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2131361171'><pre>java.lang.ArithmeticException: / by zero
-	at test.dummy.inc(dummy.java:14)
-	at test.dummyTest.incTest(dummyTest.java:28)
+<td><div><pre>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
+	at test.dummyTest.incTest(dummyTest.java:29)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1660962283", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1660962283'><pre>java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at test.dummyTest.incTest(dummyTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,7 +111,20 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.main(TestNG.java:1294)
 </pre></div></td>
 <td>0</td>
-<td>test.dummyTest@624b035d</td></tr>
+<td>test.dummyTest@13b8f864</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.dummyTest.decTest()'><b>decTest</b><br>Test class: test.dummyTest</td>
+<td></td>
+<td>0</td>
+<td>test.dummyTest@13b8f864</td></tr>
 </table><p>
 </body>
 </html>

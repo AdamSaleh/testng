@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Ant suite" duration-ms="16" started-at="2012-03-27T16:35:59Z" finished-at="2012-03-27T16:35:59Z">
+  <suite name="Ant suite" duration-ms="21" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
     <groups>
     </groups>
-    <test name="Ant test" duration-ms="16" started-at="2012-03-27T16:35:59Z" finished-at="2012-03-27T16:35:59Z">
+    <test name="Ant test" duration-ms="21" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
       <class name="test.dummyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.dummyTest@624b035d]" name="setUp" is-config="true" duration-ms="8" started-at="2012-03-27T16:35:59Z" finished-at="2012-03-27T16:35:59Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.dummyTest@13b8f864]" name="setUp" is-config="true" duration-ms="8" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="incTest()[pri:0, instance:test.dummyTest@624b035d]" name="incTest" duration-ms="0" started-at="2012-03-27T16:35:59Z" finished-at="2012-03-27T16:35:59Z">
-          <exception class="java.lang.ArithmeticException">
+        <test-method status="PASS" signature="decTest()[pri:0, instance:test.dummyTest@13b8f864]" name="decTest" duration-ms="1" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
+        </test-method> <!-- decTest -->
+        <test-method status="FAIL" signature="incTest()[pri:0, instance:test.dummyTest@13b8f864]" name="incTest" duration-ms="0" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[/ by zero]]>
+              <![CDATA[expected:<1> but was:<0>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-	at test.dummy.inc(dummy.java:14)
-	at test.dummyTest.incTest(dummyTest.java:28)
+              <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at test.dummyTest.incTest(dummyTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -43,9 +49,9 @@
 	at org.testng.TestNG.main(TestNG.java:1294)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+          </exception> <!-- java.lang.AssertionError -->
         </test-method> <!-- incTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.dummyTest@624b035d]" name="cleanUp" is-config="true" duration-ms="1" started-at="2012-03-27T16:35:59Z" finished-at="2012-03-27T16:35:59Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.dummyTest@13b8f864]" name="cleanUp" is-config="true" duration-ms="1" started-at="2012-04-13T09:44:22Z" finished-at="2012-04-13T09:44:22Z">
         </test-method> <!-- cleanUp -->
       </class> <!-- test.dummyTest -->
     </test> <!-- Ant test -->
