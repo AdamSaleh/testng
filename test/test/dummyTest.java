@@ -15,13 +15,7 @@ import org.testng.annotations.Test;
  * @author jrusnack
  */
 public class dummyTest {
-    dummy d;
     
-    @BeforeClass
-    public void setUp() {
-        // code that will be invoked before this test starts
-	d = new dummy();
-    }
     
     @Test
     public void incTest(){
@@ -30,8 +24,4 @@ public class dummyTest {
     }
     
     
-    @AfterClass
-    public void cleanUp() {
-        // code that will be invoked after this test ends
-    }
 }
