@@ -29,11 +29,6 @@ public class dummyTest {
 	assertEquals(1, randomGenerator.nextInt(2));
     }
     
-    @Test
-    public void decTest(){
-	Random randomGenerator = new Random();
-	assertEquals(1, randomGenerator.nextInt(2));
-    }
     
     @AfterClass
     public void cleanUp() {
