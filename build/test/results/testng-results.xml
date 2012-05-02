@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Ant suite" duration-ms="15" started-at="2012-04-13T10:56:02Z" finished-at="2012-04-13T10:56:02Z">
+  <suite name="Ant suite" duration-ms="14" started-at="2012-05-02T07:01:15Z" finished-at="2012-05-02T07:01:15Z">
     <groups>
     </groups>
-    <test name="Ant test" duration-ms="15" started-at="2012-04-13T10:56:02Z" finished-at="2012-04-13T10:56:02Z">
+    <test name="Ant test" duration-ms="14" started-at="2012-05-02T07:01:15Z" finished-at="2012-05-02T07:01:15Z">
       <class name="test.dummyTest">
-        <test-method status="PASS" signature="incTest()[pri:0, instance:test.dummyTest@2cb0ce8f]" name="incTest" duration-ms="6" started-at="2012-04-13T10:56:02Z" finished-at="2012-04-13T10:56:02Z">
+        <test-method status="PASS" signature="incTest()[pri:0, instance:test.dummyTest@19d009b4]" name="incTest" duration-ms="6" started-at="2012-05-02T07:01:15Z" finished-at="2012-05-02T07:01:15Z">
         </test-method> <!-- incTest -->
       </class> <!-- test.dummyTest -->
     </test> <!-- Ant test -->

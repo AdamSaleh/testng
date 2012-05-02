@@ -18,7 +18,7 @@ public class dummyTest {
     
     
     @Test
-    public void incTest(){
+    public void randomTest(){
 	Random randomGenerator = new Random();
 	assertEquals(1, randomGenerator.nextInt(2));
     }
